@@ -1,0 +1,25 @@
+{
+  "name": "nextjs-storybook-vanilla-extract-example",
+  "version": "0.1.0",
+  "private": true,
+  "scripts": {
+    "dev": "next dev",
+    "build": "next build",
+    "start": "next start",
+    "lint": "next lint",
+    "mock": "mb --configfile mountebank/imposters.ejs --loglevel debug"
+  },
+  "dependencies": {
+    "client-only": "^0.0.1",
+    "eslint": "8.44.0",
+    "eslint-config-next": "13.4.9",
+    "mountebank": "^2.8.2",
+    "next": "13.4.9",
+    "react": "18.2.0",
+    "react-dom": "18.2.0",
+    "server-only": "^0.0.1"
+  },
+  "devDependencies": {
+    "@vanilla-extract/next-plugin": "^2.1.3"
+  }
+}
